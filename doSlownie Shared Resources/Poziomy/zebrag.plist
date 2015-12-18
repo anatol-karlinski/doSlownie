@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>litery</key>
+	<string>z;e;b;r;a;g</string>
+	<key>odpowiedzi</key>
+	<array>
+		<string>bar</string>
+		<string>era</string>
+		<string>gar</string>
+		<string>gaz</string>
+		<string>gra</string>
+		<string>raz</string>
+		<string>beza</string>
+		<string>gabr</string>
+		<string>garb</string>
+		<string>brzeg</string>
+		<string>zebra</string>
+		<string>zegar</string>
+		<string>gabrze</string>
+	</array>
+</dict>
+</plist>

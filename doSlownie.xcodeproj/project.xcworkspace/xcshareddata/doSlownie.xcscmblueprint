@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8E88345CB60398E0E5F02623F5321C318B368383",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E874FC744C3F2E7DCC18E37B52FE4F499676CB71" : 0,
+    "8E88345CB60398E0E5F02623F5321C318B368383" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E2B5CEDC-B678-42A6-A8AD-B8ECF1C777CB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E874FC744C3F2E7DCC18E37B52FE4F499676CB71" : "doSlownie\/doSlownie\/",
+    "8E88345CB60398E0E5F02623F5321C318B368383" : "doSlownie\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "doSlownie",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "doSlownie.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/anatol-karlinski\/doSlownie-1.0.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8E88345CB60398E0E5F02623F5321C318B368383"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/anatol-karlinski\/doSlownie.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E874FC744C3F2E7DCC18E37B52FE4F499676CB71"
+    }
+  ]
+}

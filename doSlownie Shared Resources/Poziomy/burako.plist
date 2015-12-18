@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>litery</key>
+	<string>b;u;r;a;k;o</string>
+	<key>odpowiedzi</key>
+	<array>
+		<string>akr</string>
+		<string>bak</string>
+		<string>bar</string>
+		<string>boa</string>
+		<string>bok</string>
+		<string>kra</string>
+		<string>oba</string>
+		<string>ork</string>
+		<string>rak</string>
+		<string>rok</string>
+		<string>auro</string>
+		<string>bark</string>
+		<string>brak</string>
+		<string>bruk</string>
+		<string>karb</string>
+		<string>karo</string>
+		<string>kora</string>
+		<string>krab</string>
+		<string>kura</string>
+		<string>orka</string>
+		<string>urok</string>
+		<string>barok</string>
+		<string>burak</string>
+		<string>kobra</string>
+		<string>korba</string>
+		<string>robak</string>
+	</array>
+</dict>
+</plist>

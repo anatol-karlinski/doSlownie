@@ -1,0 +1,1315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		102C09181C247F94002CB4DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C09171C247F94002CB4DF /* main.m */; };
+		102C091B1C247F94002CB4DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C091A1C247F94002CB4DF /* AppDelegate.m */; };
+		102C09231C247F94002CB4DF /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C09221C247F94002CB4DF /* GameViewController.m */; };
+		102C09261C247F94002CB4DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102C09241C247F94002CB4DF /* Main.storyboard */; };
+		102C092B1C247F94002CB4DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102C09291C247F94002CB4DF /* LaunchScreen.storyboard */; };
+		102C09361C247F94002CB4DF /* doSlownieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C09351C247F94002CB4DF /* doSlownieTests.m */; };
+		102C09A41C2481D7002CB4DF /* ekranAbout.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C095B1C2481D7002CB4DF /* ekranAbout.m */; };
+		102C09A51C2481D7002CB4DF /* ekranGry.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C095D1C2481D7002CB4DF /* ekranGry.m */; };
+		102C09A61C2481D7002CB4DF /* ekranGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C095F1C2481D7002CB4DF /* ekranGuide.m */; };
+		102C09A71C2481D7002CB4DF /* ekranMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C09611C2481D7002CB4DF /* ekranMenu.m */; };
+		102C09A81C2481D7002CB4DF /* ekranWyboruPoziomu.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C09631C2481D7002CB4DF /* ekranWyboruPoziomu.m */; };
+		102C09D71C2481D7002CB4DF /* about@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C09941C2481D7002CB4DF /* about@2x.png */; };
+		102C09D81C2481D7002CB4DF /* game_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C09951C2481D7002CB4DF /* game_background.png */; };
+		102C09D91C2481D7002CB4DF /* game_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C09961C2481D7002CB4DF /* game_background@2x.png */; };
+		102C09DA1C2481D7002CB4DF /* global_mainBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C09971C2481D7002CB4DF /* global_mainBackground.png */; };
+		102C09DB1C2481D7002CB4DF /* global_mainBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C09981C2481D7002CB4DF /* global_mainBackground@2x.png */; };
+		102C09DC1C2481D7002CB4DF /* guide_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C09991C2481D7002CB4DF /* guide_1.png */; };
+		102C09DD1C2481D7002CB4DF /* guide_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C099A1C2481D7002CB4DF /* guide_1@2x.png */; };
+		102C09DE1C2481D7002CB4DF /* guide_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C099B1C2481D7002CB4DF /* guide_2.png */; };
+		102C09DF1C2481D7002CB4DF /* guide_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C099C1C2481D7002CB4DF /* guide_2@2x.png */; };
+		102C09E01C2481D7002CB4DF /* guide_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C099D1C2481D7002CB4DF /* guide_3.png */; };
+		102C09E11C2481D7002CB4DF /* guide_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C099E1C2481D7002CB4DF /* guide_3@2x.png */; };
+		102C09E21C2481D7002CB4DF /* guide_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C099F1C2481D7002CB4DF /* guide_4.png */; };
+		102C09E31C2481D7002CB4DF /* guide_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C09A01C2481D7002CB4DF /* guide_4@2x.png */; };
+		102C09E41C2481D7002CB4DF /* Textury.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 102C09A11C2481D7002CB4DF /* Textury.atlas */; };
+		102C09E51C2481D7002CB4DF /* managerSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C09A21C2481D7002CB4DF /* managerSingleton.m */; };
+		102C09E61C2481D7002CB4DF /* SKScene+SKMScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C09A31C2481D7002CB4DF /* SKScene+SKMScene.m */; };
+		102C09EF1C248310002CB4DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C09EE1C248310002CB4DF /* AppDelegate.m */; };
+		102C09F21C248310002CB4DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C09F11C248310002CB4DF /* main.m */; };
+		102C09FC1C248310002CB4DF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 102C09FA1C248310002CB4DF /* MainMenu.xib */; };
+		102C0A071C248310002CB4DF /* doSlownie_dla_OSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C0A061C248310002CB4DF /* doSlownie_dla_OSXTests.m */; };
+		102C0A0F1C24831F002CB4DF /* SKScene+SKMScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C09A31C2481D7002CB4DF /* SKScene+SKMScene.m */; };
+		102C0A101C248322002CB4DF /* managerSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C09A21C2481D7002CB4DF /* managerSingleton.m */; };
+		102C0A111C248329002CB4DF /* ekranAbout.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C095B1C2481D7002CB4DF /* ekranAbout.m */; };
+		102C0A121C248329002CB4DF /* ekranGry.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C095D1C2481D7002CB4DF /* ekranGry.m */; };
+		102C0A131C248329002CB4DF /* ekranGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C095F1C2481D7002CB4DF /* ekranGuide.m */; };
+		102C0A141C248329002CB4DF /* ekranMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C09611C2481D7002CB4DF /* ekranMenu.m */; };
+		102C0A151C248329002CB4DF /* ekranWyboruPoziomu.m in Sources */ = {isa = PBXBuildFile; fileRef = 102C09631C2481D7002CB4DF /* ekranWyboruPoziomu.m */; };
+		102C0A441C24834E002CB4DF /* about@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C09941C2481D7002CB4DF /* about@2x.png */; };
+		102C0A451C24834E002CB4DF /* game_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C09951C2481D7002CB4DF /* game_background.png */; };
+		102C0A461C24834E002CB4DF /* game_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C09961C2481D7002CB4DF /* game_background@2x.png */; };
+		102C0A471C24834E002CB4DF /* global_mainBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C09971C2481D7002CB4DF /* global_mainBackground.png */; };
+		102C0A481C24834E002CB4DF /* global_mainBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C09981C2481D7002CB4DF /* global_mainBackground@2x.png */; };
+		102C0A491C24834E002CB4DF /* guide_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C09991C2481D7002CB4DF /* guide_1.png */; };
+		102C0A4A1C24834E002CB4DF /* guide_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C099A1C2481D7002CB4DF /* guide_1@2x.png */; };
+		102C0A4B1C24834E002CB4DF /* guide_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C099B1C2481D7002CB4DF /* guide_2.png */; };
+		102C0A4C1C24834E002CB4DF /* guide_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C099C1C2481D7002CB4DF /* guide_2@2x.png */; };
+		102C0A4D1C24834E002CB4DF /* guide_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C099D1C2481D7002CB4DF /* guide_3.png */; };
+		102C0A4E1C24834E002CB4DF /* guide_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C099E1C2481D7002CB4DF /* guide_3@2x.png */; };
+		102C0A4F1C24834E002CB4DF /* guide_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C099F1C2481D7002CB4DF /* guide_4.png */; };
+		102C0A501C24834E002CB4DF /* guide_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 102C09A01C2481D7002CB4DF /* guide_4@2x.png */; };
+		102C0A511C248351002CB4DF /* Textury.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 102C09A11C2481D7002CB4DF /* Textury.atlas */; };
+		1093D3271C24AD1B002EA16D /* aloesk.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2D91C24AD1B002EA16D /* aloesk.plist */; };
+		1093D3281C24AD1B002EA16D /* aloesk.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2D91C24AD1B002EA16D /* aloesk.plist */; };
+		1093D3291C24AD1B002EA16D /* baleto.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2DA1C24AD1B002EA16D /* baleto.plist */; };
+		1093D32A1C24AD1B002EA16D /* baleto.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2DA1C24AD1B002EA16D /* baleto.plist */; };
+		1093D32B1C24AD1B002EA16D /* bocian.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2DB1C24AD1B002EA16D /* bocian.plist */; };
+		1093D32C1C24AD1B002EA16D /* bocian.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2DB1C24AD1B002EA16D /* bocian.plist */; };
+		1093D32D1C24AD1B002EA16D /* brokuł.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2DC1C24AD1B002EA16D /* brokuł.plist */; };
+		1093D32E1C24AD1B002EA16D /* brokuł.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2DC1C24AD1B002EA16D /* brokuł.plist */; };
+		1093D32F1C24AD1B002EA16D /* burako.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2DD1C24AD1B002EA16D /* burako.plist */; };
+		1093D3301C24AD1B002EA16D /* burako.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2DD1C24AD1B002EA16D /* burako.plist */; };
+		1093D3311C24AD1B002EA16D /* busola.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2DE1C24AD1B002EA16D /* busola.plist */; };
+		1093D3321C24AD1B002EA16D /* busola.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2DE1C24AD1B002EA16D /* busola.plist */; };
+		1093D3331C24AD1B002EA16D /* bzdura.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2DF1C24AD1B002EA16D /* bzdura.plist */; };
+		1093D3341C24AD1B002EA16D /* bzdura.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2DF1C24AD1B002EA16D /* bzdura.plist */; };
+		1093D3351C24AD1B002EA16D /* cebula.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2E01C24AD1B002EA16D /* cebula.plist */; };
+		1093D3361C24AD1B002EA16D /* cebula.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2E01C24AD1B002EA16D /* cebula.plist */; };
+		1093D3371C24AD1B002EA16D /* chomik.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2E11C24AD1B002EA16D /* chomik.plist */; };
+		1093D3381C24AD1B002EA16D /* chomik.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2E11C24AD1B002EA16D /* chomik.plist */; };
+		1093D3391C24AD1B002EA16D /* ciasto.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2E21C24AD1B002EA16D /* ciasto.plist */; };
+		1093D33A1C24AD1B002EA16D /* ciasto.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2E21C24AD1B002EA16D /* ciasto.plist */; };
+		1093D33B1C24AD1B002EA16D /* daktyl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2E31C24AD1B002EA16D /* daktyl.plist */; };
+		1093D33C1C24AD1B002EA16D /* daktyl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2E31C24AD1B002EA16D /* daktyl.plist */; };
+		1093D33D1C24AD1B002EA16D /* deskar.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2E41C24AD1B002EA16D /* deskar.plist */; };
+		1093D33E1C24AD1B002EA16D /* deskar.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2E41C24AD1B002EA16D /* deskar.plist */; };
+		1093D33F1C24AD1B002EA16D /* dolina.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2E51C24AD1B002EA16D /* dolina.plist */; };
+		1093D3401C24AD1B002EA16D /* dolina.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2E51C24AD1B002EA16D /* dolina.plist */; };
+		1093D3411C24AD1B002EA16D /* doSłownie-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2E61C24AD1B002EA16D /* doSłownie-Info.plist */; };
+		1093D3421C24AD1B002EA16D /* doSłownie-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2E61C24AD1B002EA16D /* doSłownie-Info.plist */; };
+		1093D3431C24AD1B002EA16D /* fiolka.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2E71C24AD1B002EA16D /* fiolka.plist */; };
+		1093D3441C24AD1B002EA16D /* fiolka.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2E71C24AD1B002EA16D /* fiolka.plist */; };
+		1093D3451C24AD1B002EA16D /* flakon.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2E81C24AD1B002EA16D /* flakon.plist */; };
+		1093D3461C24AD1B002EA16D /* flakon.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2E81C24AD1B002EA16D /* flakon.plist */; };
+		1093D3471C24AD1B002EA16D /* forumk.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2E91C24AD1B002EA16D /* forumk.plist */; };
+		1093D3481C24AD1B002EA16D /* forumk.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2E91C24AD1B002EA16D /* forumk.plist */; };
+		1093D3491C24AD1B002EA16D /* fretka.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2EA1C24AD1B002EA16D /* fretka.plist */; };
+		1093D34A1C24AD1B002EA16D /* fretka.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2EA1C24AD1B002EA16D /* fretka.plist */; };
+		1093D34B1C24AD1B002EA16D /* garnek.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2EB1C24AD1B002EA16D /* garnek.plist */; };
+		1093D34C1C24AD1B002EA16D /* garnek.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2EB1C24AD1B002EA16D /* garnek.plist */; };
+		1093D34D1C24AD1B002EA16D /* gąsior.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2EC1C24AD1B002EA16D /* gąsior.plist */; };
+		1093D34E1C24AD1B002EA16D /* gąsior.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2EC1C24AD1B002EA16D /* gąsior.plist */; };
+		1093D34F1C24AD1B002EA16D /* goryla.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2ED1C24AD1B002EA16D /* goryla.plist */; };
+		1093D3501C24AD1B002EA16D /* goryla.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2ED1C24AD1B002EA16D /* goryla.plist */; };
+		1093D3511C24AD1B002EA16D /* grzyba.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2EE1C24AD1B002EA16D /* grzyba.plist */; };
+		1093D3521C24AD1B002EA16D /* grzyba.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2EE1C24AD1B002EA16D /* grzyba.plist */; };
+		1093D3531C24AD1B002EA16D /* gulasz.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2EF1C24AD1B002EA16D /* gulasz.plist */; };
+		1093D3541C24AD1B002EA16D /* gulasz.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2EF1C24AD1B002EA16D /* gulasz.plist */; };
+		1093D3551C24AD1B002EA16D /* jabłko.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2F01C24AD1B002EA16D /* jabłko.plist */; };
+		1093D3561C24AD1B002EA16D /* jabłko.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2F01C24AD1B002EA16D /* jabłko.plist */; };
+		1093D3571C24AD1B002EA16D /* kangur.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2F11C24AD1B002EA16D /* kangur.plist */; };
+		1093D3581C24AD1B002EA16D /* kangur.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2F11C24AD1B002EA16D /* kangur.plist */; };
+		1093D3591C24AD1B002EA16D /* kaptur.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2F21C24AD1B002EA16D /* kaptur.plist */; };
+		1093D35A1C24AD1B002EA16D /* kaptur.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2F21C24AD1B002EA16D /* kaptur.plist */; };
+		1093D35B1C24AD1B002EA16D /* kogutl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2F31C24AD1B002EA16D /* kogutl.plist */; };
+		1093D35C1C24AD1B002EA16D /* kogutl.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2F31C24AD1B002EA16D /* kogutl.plist */; };
+		1093D35D1C24AD1B002EA16D /* kozats.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2F41C24AD1B002EA16D /* kozats.plist */; };
+		1093D35E1C24AD1B002EA16D /* kozats.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2F41C24AD1B002EA16D /* kozats.plist */; };
+		1093D35F1C24AD1B002EA16D /* kremaw.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2F51C24AD1B002EA16D /* kremaw.plist */; };
+		1093D3601C24AD1B002EA16D /* kremaw.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2F51C24AD1B002EA16D /* kremaw.plist */; };
+		1093D3611C24AD1B002EA16D /* krowan.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2F61C24AD1B002EA16D /* krowan.plist */; };
+		1093D3621C24AD1B002EA16D /* krowan.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2F61C24AD1B002EA16D /* krowan.plist */; };
+		1093D3631C24AD1B002EA16D /* litera.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2F71C24AD1B002EA16D /* litera.plist */; };
+		1093D3641C24AD1B002EA16D /* litera.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2F71C24AD1B002EA16D /* litera.plist */; };
+		1093D3651C24AD1B002EA16D /* lukier.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2F81C24AD1B002EA16D /* lukier.plist */; };
+		1093D3661C24AD1B002EA16D /* lukier.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2F81C24AD1B002EA16D /* lukier.plist */; };
+		1093D3671C24AD1B002EA16D /* miasto.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2F91C24AD1B002EA16D /* miasto.plist */; };
+		1093D3681C24AD1B002EA16D /* miasto.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2F91C24AD1B002EA16D /* miasto.plist */; };
+		1093D3691C24AD1B002EA16D /* modelp.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2FA1C24AD1B002EA16D /* modelp.plist */; };
+		1093D36A1C24AD1B002EA16D /* modelp.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2FA1C24AD1B002EA16D /* modelp.plist */; };
+		1093D36B1C24AD1B002EA16D /* moneta.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2FB1C24AD1B002EA16D /* moneta.plist */; };
+		1093D36C1C24AD1B002EA16D /* moneta.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2FB1C24AD1B002EA16D /* moneta.plist */; };
+		1093D36D1C24AD1B002EA16D /* muchao.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2FC1C24AD1B002EA16D /* muchao.plist */; };
+		1093D36E1C24AD1B002EA16D /* muchao.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2FC1C24AD1B002EA16D /* muchao.plist */; };
+		1093D36F1C24AD1B002EA16D /* nartyo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2FD1C24AD1B002EA16D /* nartyo.plist */; };
+		1093D3701C24AD1B002EA16D /* nartyo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2FD1C24AD1B002EA16D /* nartyo.plist */; };
+		1093D3711C24AD1B002EA16D /* nawózd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2FE1C24AD1B002EA16D /* nawózd.plist */; };
+		1093D3721C24AD1B002EA16D /* nawózd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2FE1C24AD1B002EA16D /* nawózd.plist */; };
+		1093D3731C24AD1B002EA16D /* ogórek.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2FF1C24AD1B002EA16D /* ogórek.plist */; };
+		1093D3741C24AD1B002EA16D /* ogórek.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D2FF1C24AD1B002EA16D /* ogórek.plist */; };
+		1093D3751C24AD1B002EA16D /* omletw.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3001C24AD1B002EA16D /* omletw.plist */; };
+		1093D3761C24AD1B002EA16D /* omletw.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3001C24AD1B002EA16D /* omletw.plist */; };
+		1093D3771C24AD1B002EA16D /* orkani.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3011C24AD1B002EA16D /* orkani.plist */; };
+		1093D3781C24AD1B002EA16D /* orkani.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3011C24AD1B002EA16D /* orkani.plist */; };
+		1093D3791C24AD1B002EA16D /* orzech.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3021C24AD1B002EA16D /* orzech.plist */; };
+		1093D37A1C24AD1B002EA16D /* orzech.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3021C24AD1B002EA16D /* orzech.plist */; };
+		1093D37B1C24AD1B002EA16D /* piłkae.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3031C24AD1B002EA16D /* piłkae.plist */; };
+		1093D37C1C24AD1B002EA16D /* piłkae.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3031C24AD1B002EA16D /* piłkae.plist */; };
+		1093D37D1C24AD1B002EA16D /* piwoda.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3041C24AD1B002EA16D /* piwoda.plist */; };
+		1093D37E1C24AD1B002EA16D /* piwoda.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3041C24AD1B002EA16D /* piwoda.plist */; };
+		1093D37F1C24AD1B002EA16D /* płatek.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3051C24AD1B002EA16D /* płatek.plist */; };
+		1093D3801C24AD1B002EA16D /* płatek.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3051C24AD1B002EA16D /* płatek.plist */; };
+		1093D3811C24AD1B002EA16D /* poczta.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3061C24AD1B002EA16D /* poczta.plist */; };
+		1093D3821C24AD1B002EA16D /* poczta.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3061C24AD1B002EA16D /* poczta.plist */; };
+		1093D3831C24AD1B002EA16D /* podróż.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3071C24AD1B002EA16D /* podróż.plist */; };
+		1093D3841C24AD1B002EA16D /* podróż.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3071C24AD1B002EA16D /* podróż.plist */; };
+		1093D3851C24AD1B002EA16D /* poziomy_db.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3081C24AD1B002EA16D /* poziomy_db.plist */; };
+		1093D3861C24AD1B002EA16D /* poziomy_db.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3081C24AD1B002EA16D /* poziomy_db.plist */; };
+		1093D3871C24AD1B002EA16D /* pranie.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3091C24AD1B002EA16D /* pranie.plist */; };
+		1093D3881C24AD1B002EA16D /* pranie.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3091C24AD1B002EA16D /* pranie.plist */; };
+		1093D3891C24AD1B002EA16D /* rekina.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D30A1C24AD1B002EA16D /* rekina.plist */; };
+		1093D38A1C24AD1B002EA16D /* rekina.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D30A1C24AD1B002EA16D /* rekina.plist */; };
+		1093D38B1C24AD1B002EA16D /* relaks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D30B1C24AD1B002EA16D /* relaks.plist */; };
+		1093D38C1C24AD1B002EA16D /* relaks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D30B1C24AD1B002EA16D /* relaks.plist */; };
+		1093D38D1C24AD1B002EA16D /* reszta.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D30C1C24AD1B002EA16D /* reszta.plist */; };
+		1093D38E1C24AD1B002EA16D /* reszta.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D30C1C24AD1B002EA16D /* reszta.plist */; };
+		1093D38F1C24AD1B002EA16D /* rosółt.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D30D1C24AD1B002EA16D /* rosółt.plist */; };
+		1093D3901C24AD1B002EA16D /* rosółt.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D30D1C24AD1B002EA16D /* rosółt.plist */; };
+		1093D3911C24AD1B002EA16D /* rozpad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D30E1C24AD1B002EA16D /* rozpad.plist */; };
+		1093D3921C24AD1B002EA16D /* rozpad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D30E1C24AD1B002EA16D /* rozpad.plist */; };
+		1093D3931C24AD1B002EA16D /* rzepak.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D30F1C24AD1B002EA16D /* rzepak.plist */; };
+		1093D3941C24AD1B002EA16D /* rzepak.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D30F1C24AD1B002EA16D /* rzepak.plist */; };
+		1093D3951C24AD1B002EA16D /* serial.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3101C24AD1B002EA16D /* serial.plist */; };
+		1093D3961C24AD1B002EA16D /* serial.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3101C24AD1B002EA16D /* serial.plist */; };
+		1093D3971C24AD1B002EA16D /* śmierć.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3111C24AD1B002EA16D /* śmierć.plist */; };
+		1093D3981C24AD1B002EA16D /* śmierć.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3111C24AD1B002EA16D /* śmierć.plist */; };
+		1093D3991C24AD1B002EA16D /* sporta.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3121C24AD1B002EA16D /* sporta.plist */; };
+		1093D39A1C24AD1B002EA16D /* sporta.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3121C24AD1B002EA16D /* sporta.plist */; };
+		1093D39B1C24AD1B002EA16D /* srokam.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3131C24AD1B002EA16D /* srokam.plist */; };
+		1093D39C1C24AD1B002EA16D /* srokam.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3131C24AD1B002EA16D /* srokam.plist */; };
+		1093D39D1C24AD1B002EA16D /* szachy.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3141C24AD1B002EA16D /* szachy.plist */; };
+		1093D39E1C24AD1B002EA16D /* szachy.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3141C24AD1B002EA16D /* szachy.plist */; };
+		1093D39F1C24AD1B002EA16D /* szkico.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3151C24AD1B002EA16D /* szkico.plist */; };
+		1093D3A01C24AD1B002EA16D /* szkico.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3151C24AD1B002EA16D /* szkico.plist */; };
+		1093D3A11C24AD1B002EA16D /* szpako.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3161C24AD1B002EA16D /* szpako.plist */; };
+		1093D3A21C24AD1B002EA16D /* szpako.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3161C24AD1B002EA16D /* szpako.plist */; };
+		1093D3A31C24AD1B002EA16D /* sztuka.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3171C24AD1B002EA16D /* sztuka.plist */; };
+		1093D3A41C24AD1B002EA16D /* sztuka.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3171C24AD1B002EA16D /* sztuka.plist */; };
+		1093D3A51C24AD1B002EA16D /* szynka.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3181C24AD1B002EA16D /* szynka.plist */; };
+		1093D3A61C24AD1B002EA16D /* szynka.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3181C24AD1B002EA16D /* szynka.plist */; };
+		1093D3A71C24AD1B002EA16D /* taniec.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3191C24AD1B002EA16D /* taniec.plist */; };
+		1093D3A81C24AD1B002EA16D /* taniec.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3191C24AD1B002EA16D /* taniec.plist */; };
+		1093D3A91C24AD1B002EA16D /* trzoda.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D31A1C24AD1B002EA16D /* trzoda.plist */; };
+		1093D3AA1C24AD1B002EA16D /* trzoda.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D31A1C24AD1B002EA16D /* trzoda.plist */; };
+		1093D3AB1C24AD1B002EA16D /* tukano.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D31B1C24AD1B002EA16D /* tukano.plist */; };
+		1093D3AC1C24AD1B002EA16D /* tukano.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D31B1C24AD1B002EA16D /* tukano.plist */; };
+		1093D3AD1C24AD1B002EA16D /* tundra.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D31C1C24AD1B002EA16D /* tundra.plist */; };
+		1093D3AE1C24AD1B002EA16D /* tundra.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D31C1C24AD1B002EA16D /* tundra.plist */; };
+		1093D3AF1C24AD1B002EA16D /* tunika.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D31D1C24AD1B002EA16D /* tunika.plist */; };
+		1093D3B01C24AD1B002EA16D /* tunika.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D31D1C24AD1B002EA16D /* tunika.plist */; };
+		1093D3B11C24AD1B002EA16D /* wiedza.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D31E1C24AD1B002EA16D /* wiedza.plist */; };
+		1093D3B21C24AD1B002EA16D /* wiedza.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D31E1C24AD1B002EA16D /* wiedza.plist */; };
+		1093D3B31C24AD1B002EA16D /* wiertło.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D31F1C24AD1B002EA16D /* wiertło.plist */; };
+		1093D3B41C24AD1B002EA16D /* wiertło.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D31F1C24AD1B002EA16D /* wiertło.plist */; };
+		1093D3B51C24AD1B002EA16D /* wodare.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3201C24AD1B002EA16D /* wodare.plist */; };
+		1093D3B61C24AD1B002EA16D /* wodare.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3201C24AD1B002EA16D /* wodare.plist */; };
+		1093D3B71C24AD1B002EA16D /* wódkaz.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3211C24AD1B002EA16D /* wódkaz.plist */; };
+		1093D3B81C24AD1B002EA16D /* wódkaz.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3211C24AD1B002EA16D /* wódkaz.plist */; };
+		1093D3B91C24AD1B002EA16D /* wronaó.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3221C24AD1B002EA16D /* wronaó.plist */; };
+		1093D3BA1C24AD1B002EA16D /* wronaó.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3221C24AD1B002EA16D /* wronaó.plist */; };
+		1093D3BB1C24AD1B002EA16D /* wrotki.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3231C24AD1B002EA16D /* wrotki.plist */; };
+		1093D3BC1C24AD1B002EA16D /* wrotki.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3231C24AD1B002EA16D /* wrotki.plist */; };
+		1093D3BD1C24AD1B002EA16D /* żagiel.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3241C24AD1B002EA16D /* żagiel.plist */; };
+		1093D3BE1C24AD1B002EA16D /* żagiel.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3241C24AD1B002EA16D /* żagiel.plist */; };
+		1093D3BF1C24AD1B002EA16D /* zebrag.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3251C24AD1B002EA16D /* zebrag.plist */; };
+		1093D3C01C24AD1B002EA16D /* zebrag.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3251C24AD1B002EA16D /* zebrag.plist */; };
+		1093D3C11C24AD1B002EA16D /* źrebak.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3261C24AD1B002EA16D /* źrebak.plist */; };
+		1093D3C21C24AD1B002EA16D /* źrebak.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3261C24AD1B002EA16D /* źrebak.plist */; };
+		1093D3C41C24B994002EA16D /* Ikony.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3C31C24B994002EA16D /* Ikony.xcassets */; };
+		1093D3C51C24B994002EA16D /* Ikony.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1093D3C31C24B994002EA16D /* Ikony.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		102C09321C247F94002CB4DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 102C090B1C247F94002CB4DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 102C09121C247F94002CB4DF;
+			remoteInfo = doSlownie;
+		};
+		102C0A031C248310002CB4DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 102C090B1C247F94002CB4DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 102C09EA1C248310002CB4DF;
+			remoteInfo = "doSlownie dla OSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		102C09131C247F94002CB4DF /* doSlownie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doSlownie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		102C09171C247F94002CB4DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		102C09191C247F94002CB4DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		102C091A1C247F94002CB4DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		102C09211C247F94002CB4DF /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		102C09221C247F94002CB4DF /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		102C09251C247F94002CB4DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		102C092A1C247F94002CB4DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		102C092C1C247F94002CB4DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		102C09311C247F94002CB4DF /* doSlownieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doSlownieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		102C09351C247F94002CB4DF /* doSlownieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = doSlownieTests.m; sourceTree = "<group>"; };
+		102C09371C247F94002CB4DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		102C09571C2481D7002CB4DF /* managerSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = managerSingleton.h; path = "doSlownie Shared Resources/managerSingleton.h"; sourceTree = SOURCE_ROOT; };
+		102C09581C2481D7002CB4DF /* SKScene+SKMScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SKScene+SKMScene.h"; path = "doSlownie Shared Resources/SKScene+SKMScene.h"; sourceTree = SOURCE_ROOT; };
+		102C095A1C2481D7002CB4DF /* ekranAbout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ekranAbout.h; sourceTree = "<group>"; };
+		102C095B1C2481D7002CB4DF /* ekranAbout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ekranAbout.m; sourceTree = "<group>"; };
+		102C095C1C2481D7002CB4DF /* ekranGry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ekranGry.h; sourceTree = "<group>"; };
+		102C095D1C2481D7002CB4DF /* ekranGry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ekranGry.m; sourceTree = "<group>"; };
+		102C095E1C2481D7002CB4DF /* ekranGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ekranGuide.h; sourceTree = "<group>"; };
+		102C095F1C2481D7002CB4DF /* ekranGuide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ekranGuide.m; sourceTree = "<group>"; };
+		102C09601C2481D7002CB4DF /* ekranMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ekranMenu.h; sourceTree = "<group>"; };
+		102C09611C2481D7002CB4DF /* ekranMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ekranMenu.m; sourceTree = "<group>"; };
+		102C09621C2481D7002CB4DF /* ekranWyboruPoziomu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ekranWyboruPoziomu.h; sourceTree = "<group>"; };
+		102C09631C2481D7002CB4DF /* ekranWyboruPoziomu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ekranWyboruPoziomu.m; sourceTree = "<group>"; };
+		102C09941C2481D7002CB4DF /* about@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about@2x.png"; sourceTree = "<group>"; };
+		102C09951C2481D7002CB4DF /* game_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game_background.png; sourceTree = "<group>"; };
+		102C09961C2481D7002CB4DF /* game_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game_background@2x.png"; sourceTree = "<group>"; };
+		102C09971C2481D7002CB4DF /* global_mainBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = global_mainBackground.png; sourceTree = "<group>"; };
+		102C09981C2481D7002CB4DF /* global_mainBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "global_mainBackground@2x.png"; sourceTree = "<group>"; };
+		102C09991C2481D7002CB4DF /* guide_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide_1.png; sourceTree = "<group>"; };
+		102C099A1C2481D7002CB4DF /* guide_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guide_1@2x.png"; sourceTree = "<group>"; };
+		102C099B1C2481D7002CB4DF /* guide_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide_2.png; sourceTree = "<group>"; };
+		102C099C1C2481D7002CB4DF /* guide_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guide_2@2x.png"; sourceTree = "<group>"; };
+		102C099D1C2481D7002CB4DF /* guide_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide_3.png; sourceTree = "<group>"; };
+		102C099E1C2481D7002CB4DF /* guide_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guide_3@2x.png"; sourceTree = "<group>"; };
+		102C099F1C2481D7002CB4DF /* guide_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide_4.png; sourceTree = "<group>"; };
+		102C09A01C2481D7002CB4DF /* guide_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guide_4@2x.png"; sourceTree = "<group>"; };
+		102C09A11C2481D7002CB4DF /* Textury.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = Textury.atlas; path = "doSlownie Shared Resources/Textury.atlas"; sourceTree = SOURCE_ROOT; };
+		102C09A21C2481D7002CB4DF /* managerSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = managerSingleton.m; path = "doSlownie Shared Resources/managerSingleton.m"; sourceTree = SOURCE_ROOT; };
+		102C09A31C2481D7002CB4DF /* SKScene+SKMScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SKScene+SKMScene.m"; path = "doSlownie Shared Resources/SKScene+SKMScene.m"; sourceTree = SOURCE_ROOT; };
+		102C09EB1C248310002CB4DF /* doSlownie dla OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "doSlownie dla OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		102C09ED1C248310002CB4DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		102C09EE1C248310002CB4DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		102C09F11C248310002CB4DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		102C09FB1C248310002CB4DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		102C09FD1C248310002CB4DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		102C0A021C248310002CB4DF /* doSlownie dla OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "doSlownie dla OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		102C0A061C248310002CB4DF /* doSlownie_dla_OSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = doSlownie_dla_OSXTests.m; sourceTree = "<group>"; };
+		102C0A081C248310002CB4DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1093D2D91C24AD1B002EA16D /* aloesk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = aloesk.plist; sourceTree = "<group>"; };
+		1093D2DA1C24AD1B002EA16D /* baleto.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = baleto.plist; sourceTree = "<group>"; };
+		1093D2DB1C24AD1B002EA16D /* bocian.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bocian.plist; sourceTree = "<group>"; };
+		1093D2DC1C24AD1B002EA16D /* brokuł.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "brokuł.plist"; sourceTree = "<group>"; };
+		1093D2DD1C24AD1B002EA16D /* burako.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = burako.plist; sourceTree = "<group>"; };
+		1093D2DE1C24AD1B002EA16D /* busola.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = busola.plist; sourceTree = "<group>"; };
+		1093D2DF1C24AD1B002EA16D /* bzdura.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bzdura.plist; sourceTree = "<group>"; };
+		1093D2E01C24AD1B002EA16D /* cebula.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cebula.plist; sourceTree = "<group>"; };
+		1093D2E11C24AD1B002EA16D /* chomik.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = chomik.plist; sourceTree = "<group>"; };
+		1093D2E21C24AD1B002EA16D /* ciasto.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ciasto.plist; sourceTree = "<group>"; };
+		1093D2E31C24AD1B002EA16D /* daktyl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = daktyl.plist; sourceTree = "<group>"; };
+		1093D2E41C24AD1B002EA16D /* deskar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = deskar.plist; sourceTree = "<group>"; };
+		1093D2E51C24AD1B002EA16D /* dolina.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dolina.plist; sourceTree = "<group>"; };
+		1093D2E61C24AD1B002EA16D /* doSłownie-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "doSłownie-Info.plist"; sourceTree = "<group>"; };
+		1093D2E71C24AD1B002EA16D /* fiolka.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fiolka.plist; sourceTree = "<group>"; };
+		1093D2E81C24AD1B002EA16D /* flakon.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = flakon.plist; sourceTree = "<group>"; };
+		1093D2E91C24AD1B002EA16D /* forumk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = forumk.plist; sourceTree = "<group>"; };
+		1093D2EA1C24AD1B002EA16D /* fretka.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fretka.plist; sourceTree = "<group>"; };
+		1093D2EB1C24AD1B002EA16D /* garnek.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = garnek.plist; sourceTree = "<group>"; };
+		1093D2EC1C24AD1B002EA16D /* gąsior.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "gąsior.plist"; sourceTree = "<group>"; };
+		1093D2ED1C24AD1B002EA16D /* goryla.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = goryla.plist; sourceTree = "<group>"; };
+		1093D2EE1C24AD1B002EA16D /* grzyba.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = grzyba.plist; sourceTree = "<group>"; };
+		1093D2EF1C24AD1B002EA16D /* gulasz.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gulasz.plist; sourceTree = "<group>"; };
+		1093D2F01C24AD1B002EA16D /* jabłko.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "jabłko.plist"; sourceTree = "<group>"; };
+		1093D2F11C24AD1B002EA16D /* kangur.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = kangur.plist; sourceTree = "<group>"; };
+		1093D2F21C24AD1B002EA16D /* kaptur.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = kaptur.plist; sourceTree = "<group>"; };
+		1093D2F31C24AD1B002EA16D /* kogutl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = kogutl.plist; sourceTree = "<group>"; };
+		1093D2F41C24AD1B002EA16D /* kozats.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = kozats.plist; sourceTree = "<group>"; };
+		1093D2F51C24AD1B002EA16D /* kremaw.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = kremaw.plist; sourceTree = "<group>"; };
+		1093D2F61C24AD1B002EA16D /* krowan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = krowan.plist; sourceTree = "<group>"; };
+		1093D2F71C24AD1B002EA16D /* litera.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = litera.plist; sourceTree = "<group>"; };
+		1093D2F81C24AD1B002EA16D /* lukier.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lukier.plist; sourceTree = "<group>"; };
+		1093D2F91C24AD1B002EA16D /* miasto.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = miasto.plist; sourceTree = "<group>"; };
+		1093D2FA1C24AD1B002EA16D /* modelp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = modelp.plist; sourceTree = "<group>"; };
+		1093D2FB1C24AD1B002EA16D /* moneta.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = moneta.plist; sourceTree = "<group>"; };
+		1093D2FC1C24AD1B002EA16D /* muchao.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = muchao.plist; sourceTree = "<group>"; };
+		1093D2FD1C24AD1B002EA16D /* nartyo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = nartyo.plist; sourceTree = "<group>"; };
+		1093D2FE1C24AD1B002EA16D /* nawózd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "nawózd.plist"; sourceTree = "<group>"; };
+		1093D2FF1C24AD1B002EA16D /* ogórek.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ogórek.plist"; sourceTree = "<group>"; };
+		1093D3001C24AD1B002EA16D /* omletw.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = omletw.plist; sourceTree = "<group>"; };
+		1093D3011C24AD1B002EA16D /* orkani.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = orkani.plist; sourceTree = "<group>"; };
+		1093D3021C24AD1B002EA16D /* orzech.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = orzech.plist; sourceTree = "<group>"; };
+		1093D3031C24AD1B002EA16D /* piłkae.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "piłkae.plist"; sourceTree = "<group>"; };
+		1093D3041C24AD1B002EA16D /* piwoda.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = piwoda.plist; sourceTree = "<group>"; };
+		1093D3051C24AD1B002EA16D /* płatek.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "płatek.plist"; sourceTree = "<group>"; };
+		1093D3061C24AD1B002EA16D /* poczta.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = poczta.plist; sourceTree = "<group>"; };
+		1093D3071C24AD1B002EA16D /* podróż.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "podróż.plist"; sourceTree = "<group>"; };
+		1093D3081C24AD1B002EA16D /* poziomy_db.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = poziomy_db.plist; sourceTree = "<group>"; };
+		1093D3091C24AD1B002EA16D /* pranie.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pranie.plist; sourceTree = "<group>"; };
+		1093D30A1C24AD1B002EA16D /* rekina.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = rekina.plist; sourceTree = "<group>"; };
+		1093D30B1C24AD1B002EA16D /* relaks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = relaks.plist; sourceTree = "<group>"; };
+		1093D30C1C24AD1B002EA16D /* reszta.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = reszta.plist; sourceTree = "<group>"; };
+		1093D30D1C24AD1B002EA16D /* rosółt.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "rosółt.plist"; sourceTree = "<group>"; };
+		1093D30E1C24AD1B002EA16D /* rozpad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = rozpad.plist; sourceTree = "<group>"; };
+		1093D30F1C24AD1B002EA16D /* rzepak.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = rzepak.plist; sourceTree = "<group>"; };
+		1093D3101C24AD1B002EA16D /* serial.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = serial.plist; sourceTree = "<group>"; };
+		1093D3111C24AD1B002EA16D /* śmierć.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "śmierć.plist"; sourceTree = "<group>"; };
+		1093D3121C24AD1B002EA16D /* sporta.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sporta.plist; sourceTree = "<group>"; };
+		1093D3131C24AD1B002EA16D /* srokam.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = srokam.plist; sourceTree = "<group>"; };
+		1093D3141C24AD1B002EA16D /* szachy.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = szachy.plist; sourceTree = "<group>"; };
+		1093D3151C24AD1B002EA16D /* szkico.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = szkico.plist; sourceTree = "<group>"; };
+		1093D3161C24AD1B002EA16D /* szpako.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = szpako.plist; sourceTree = "<group>"; };
+		1093D3171C24AD1B002EA16D /* sztuka.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sztuka.plist; sourceTree = "<group>"; };
+		1093D3181C24AD1B002EA16D /* szynka.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = szynka.plist; sourceTree = "<group>"; };
+		1093D3191C24AD1B002EA16D /* taniec.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = taniec.plist; sourceTree = "<group>"; };
+		1093D31A1C24AD1B002EA16D /* trzoda.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = trzoda.plist; sourceTree = "<group>"; };
+		1093D31B1C24AD1B002EA16D /* tukano.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tukano.plist; sourceTree = "<group>"; };
+		1093D31C1C24AD1B002EA16D /* tundra.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tundra.plist; sourceTree = "<group>"; };
+		1093D31D1C24AD1B002EA16D /* tunika.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tunika.plist; sourceTree = "<group>"; };
+		1093D31E1C24AD1B002EA16D /* wiedza.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wiedza.plist; sourceTree = "<group>"; };
+		1093D31F1C24AD1B002EA16D /* wiertło.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "wiertło.plist"; sourceTree = "<group>"; };
+		1093D3201C24AD1B002EA16D /* wodare.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wodare.plist; sourceTree = "<group>"; };
+		1093D3211C24AD1B002EA16D /* wódkaz.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "wódkaz.plist"; sourceTree = "<group>"; };
+		1093D3221C24AD1B002EA16D /* wronaó.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "wronaó.plist"; sourceTree = "<group>"; };
+		1093D3231C24AD1B002EA16D /* wrotki.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wrotki.plist; sourceTree = "<group>"; };
+		1093D3241C24AD1B002EA16D /* żagiel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "żagiel.plist"; sourceTree = "<group>"; };
+		1093D3251C24AD1B002EA16D /* zebrag.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = zebrag.plist; sourceTree = "<group>"; };
+		1093D3261C24AD1B002EA16D /* źrebak.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "źrebak.plist"; sourceTree = "<group>"; };
+		1093D3C31C24B994002EA16D /* Ikony.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Ikony.xcassets; path = "../doSlownie Shared Resources/Textury.atlas/Ikony.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		102C09101C247F94002CB4DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		102C092E1C247F94002CB4DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		102C09E81C248310002CB4DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		102C09FF1C248310002CB4DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		102C090A1C247F94002CB4DF = {
+			isa = PBXGroup;
+			children = (
+				102C09401C247FBE002CB4DF /* doSlownie Shared Resources */,
+				102C09151C247F94002CB4DF /* doSlownie */,
+				102C09EC1C248310002CB4DF /* doSlownie dla OSX */,
+				102C0A521C248361002CB4DF /* Testy */,
+				102C09141C247F94002CB4DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		102C09141C247F94002CB4DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				102C09131C247F94002CB4DF /* doSlownie.app */,
+				102C09311C247F94002CB4DF /* doSlownieTests.xctest */,
+				102C09EB1C248310002CB4DF /* doSlownie dla OSX.app */,
+				102C0A021C248310002CB4DF /* doSlownie dla OSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		102C09151C247F94002CB4DF /* doSlownie */ = {
+			isa = PBXGroup;
+			children = (
+				102C09191C247F94002CB4DF /* AppDelegate.h */,
+				102C091A1C247F94002CB4DF /* AppDelegate.m */,
+				102C09211C247F94002CB4DF /* GameViewController.h */,
+				102C09221C247F94002CB4DF /* GameViewController.m */,
+				102C09241C247F94002CB4DF /* Main.storyboard */,
+				102C09291C247F94002CB4DF /* LaunchScreen.storyboard */,
+				102C092C1C247F94002CB4DF /* Info.plist */,
+				102C09161C247F94002CB4DF /* Supporting Files */,
+			);
+			path = doSlownie;
+			sourceTree = "<group>";
+		};
+		102C09161C247F94002CB4DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				102C09171C247F94002CB4DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		102C09341C247F94002CB4DF /* doSlownieTests */ = {
+			isa = PBXGroup;
+			children = (
+				102C09351C247F94002CB4DF /* doSlownieTests.m */,
+				102C09371C247F94002CB4DF /* Info.plist */,
+			);
+			name = doSlownieTests;
+			sourceTree = "<group>";
+		};
+		102C09401C247FBE002CB4DF /* doSlownie Shared Resources */ = {
+			isa = PBXGroup;
+			children = (
+				102C09571C2481D7002CB4DF /* managerSingleton.h */,
+				102C09A21C2481D7002CB4DF /* managerSingleton.m */,
+				102C09581C2481D7002CB4DF /* SKScene+SKMScene.h */,
+				102C09A31C2481D7002CB4DF /* SKScene+SKMScene.m */,
+				102C09591C2481D7002CB4DF /* Ekrany */,
+				102C09641C2481D7002CB4DF /* Poziomy */,
+				102C09931C2481D7002CB4DF /* Textury Big */,
+				1093D3C31C24B994002EA16D /* Ikony.xcassets */,
+				102C09A11C2481D7002CB4DF /* Textury.atlas */,
+			);
+			name = "doSlownie Shared Resources";
+			path = doSlownie;
+			sourceTree = "<group>";
+		};
+		102C09591C2481D7002CB4DF /* Ekrany */ = {
+			isa = PBXGroup;
+			children = (
+				102C095A1C2481D7002CB4DF /* ekranAbout.h */,
+				102C095B1C2481D7002CB4DF /* ekranAbout.m */,
+				102C095C1C2481D7002CB4DF /* ekranGry.h */,
+				102C095D1C2481D7002CB4DF /* ekranGry.m */,
+				102C095E1C2481D7002CB4DF /* ekranGuide.h */,
+				102C095F1C2481D7002CB4DF /* ekranGuide.m */,
+				102C09601C2481D7002CB4DF /* ekranMenu.h */,
+				102C09611C2481D7002CB4DF /* ekranMenu.m */,
+				102C09621C2481D7002CB4DF /* ekranWyboruPoziomu.h */,
+				102C09631C2481D7002CB4DF /* ekranWyboruPoziomu.m */,
+			);
+			name = Ekrany;
+			path = "doSlownie Shared Resources/Ekrany";
+			sourceTree = SOURCE_ROOT;
+		};
+		102C09641C2481D7002CB4DF /* Poziomy */ = {
+			isa = PBXGroup;
+			children = (
+				1093D2D91C24AD1B002EA16D /* aloesk.plist */,
+				1093D2DA1C24AD1B002EA16D /* baleto.plist */,
+				1093D2DB1C24AD1B002EA16D /* bocian.plist */,
+				1093D2DC1C24AD1B002EA16D /* brokuł.plist */,
+				1093D2DD1C24AD1B002EA16D /* burako.plist */,
+				1093D2DE1C24AD1B002EA16D /* busola.plist */,
+				1093D2DF1C24AD1B002EA16D /* bzdura.plist */,
+				1093D2E01C24AD1B002EA16D /* cebula.plist */,
+				1093D2E11C24AD1B002EA16D /* chomik.plist */,
+				1093D2E21C24AD1B002EA16D /* ciasto.plist */,
+				1093D2E31C24AD1B002EA16D /* daktyl.plist */,
+				1093D2E41C24AD1B002EA16D /* deskar.plist */,
+				1093D2E51C24AD1B002EA16D /* dolina.plist */,
+				1093D2E61C24AD1B002EA16D /* doSłownie-Info.plist */,
+				1093D2E71C24AD1B002EA16D /* fiolka.plist */,
+				1093D2E81C24AD1B002EA16D /* flakon.plist */,
+				1093D2E91C24AD1B002EA16D /* forumk.plist */,
+				1093D2EA1C24AD1B002EA16D /* fretka.plist */,
+				1093D2EB1C24AD1B002EA16D /* garnek.plist */,
+				1093D2EC1C24AD1B002EA16D /* gąsior.plist */,
+				1093D2ED1C24AD1B002EA16D /* goryla.plist */,
+				1093D2EE1C24AD1B002EA16D /* grzyba.plist */,
+				1093D2EF1C24AD1B002EA16D /* gulasz.plist */,
+				1093D2F01C24AD1B002EA16D /* jabłko.plist */,
+				1093D2F11C24AD1B002EA16D /* kangur.plist */,
+				1093D2F21C24AD1B002EA16D /* kaptur.plist */,
+				1093D2F31C24AD1B002EA16D /* kogutl.plist */,
+				1093D2F41C24AD1B002EA16D /* kozats.plist */,
+				1093D2F51C24AD1B002EA16D /* kremaw.plist */,
+				1093D2F61C24AD1B002EA16D /* krowan.plist */,
+				1093D2F71C24AD1B002EA16D /* litera.plist */,
+				1093D2F81C24AD1B002EA16D /* lukier.plist */,
+				1093D2F91C24AD1B002EA16D /* miasto.plist */,
+				1093D2FA1C24AD1B002EA16D /* modelp.plist */,
+				1093D2FB1C24AD1B002EA16D /* moneta.plist */,
+				1093D2FC1C24AD1B002EA16D /* muchao.plist */,
+				1093D2FD1C24AD1B002EA16D /* nartyo.plist */,
+				1093D2FE1C24AD1B002EA16D /* nawózd.plist */,
+				1093D2FF1C24AD1B002EA16D /* ogórek.plist */,
+				1093D3001C24AD1B002EA16D /* omletw.plist */,
+				1093D3011C24AD1B002EA16D /* orkani.plist */,
+				1093D3021C24AD1B002EA16D /* orzech.plist */,
+				1093D3031C24AD1B002EA16D /* piłkae.plist */,
+				1093D3041C24AD1B002EA16D /* piwoda.plist */,
+				1093D3051C24AD1B002EA16D /* płatek.plist */,
+				1093D3061C24AD1B002EA16D /* poczta.plist */,
+				1093D3071C24AD1B002EA16D /* podróż.plist */,
+				1093D3081C24AD1B002EA16D /* poziomy_db.plist */,
+				1093D3091C24AD1B002EA16D /* pranie.plist */,
+				1093D30A1C24AD1B002EA16D /* rekina.plist */,
+				1093D30B1C24AD1B002EA16D /* relaks.plist */,
+				1093D30C1C24AD1B002EA16D /* reszta.plist */,
+				1093D30D1C24AD1B002EA16D /* rosółt.plist */,
+				1093D30E1C24AD1B002EA16D /* rozpad.plist */,
+				1093D30F1C24AD1B002EA16D /* rzepak.plist */,
+				1093D3101C24AD1B002EA16D /* serial.plist */,
+				1093D3111C24AD1B002EA16D /* śmierć.plist */,
+				1093D3121C24AD1B002EA16D /* sporta.plist */,
+				1093D3131C24AD1B002EA16D /* srokam.plist */,
+				1093D3141C24AD1B002EA16D /* szachy.plist */,
+				1093D3151C24AD1B002EA16D /* szkico.plist */,
+				1093D3161C24AD1B002EA16D /* szpako.plist */,
+				1093D3171C24AD1B002EA16D /* sztuka.plist */,
+				1093D3181C24AD1B002EA16D /* szynka.plist */,
+				1093D3191C24AD1B002EA16D /* taniec.plist */,
+				1093D31A1C24AD1B002EA16D /* trzoda.plist */,
+				1093D31B1C24AD1B002EA16D /* tukano.plist */,
+				1093D31C1C24AD1B002EA16D /* tundra.plist */,
+				1093D31D1C24AD1B002EA16D /* tunika.plist */,
+				1093D31E1C24AD1B002EA16D /* wiedza.plist */,
+				1093D31F1C24AD1B002EA16D /* wiertło.plist */,
+				1093D3201C24AD1B002EA16D /* wodare.plist */,
+				1093D3211C24AD1B002EA16D /* wódkaz.plist */,
+				1093D3221C24AD1B002EA16D /* wronaó.plist */,
+				1093D3231C24AD1B002EA16D /* wrotki.plist */,
+				1093D3241C24AD1B002EA16D /* żagiel.plist */,
+				1093D3251C24AD1B002EA16D /* zebrag.plist */,
+				1093D3261C24AD1B002EA16D /* źrebak.plist */,
+			);
+			name = Poziomy;
+			path = "doSlownie Shared Resources/Poziomy";
+			sourceTree = SOURCE_ROOT;
+		};
+		102C09931C2481D7002CB4DF /* Textury Big */ = {
+			isa = PBXGroup;
+			children = (
+				102C09941C2481D7002CB4DF /* about@2x.png */,
+				102C09951C2481D7002CB4DF /* game_background.png */,
+				102C09961C2481D7002CB4DF /* game_background@2x.png */,
+				102C09971C2481D7002CB4DF /* global_mainBackground.png */,
+				102C09981C2481D7002CB4DF /* global_mainBackground@2x.png */,
+				102C09991C2481D7002CB4DF /* guide_1.png */,
+				102C099A1C2481D7002CB4DF /* guide_1@2x.png */,
+				102C099B1C2481D7002CB4DF /* guide_2.png */,
+				102C099C1C2481D7002CB4DF /* guide_2@2x.png */,
+				102C099D1C2481D7002CB4DF /* guide_3.png */,
+				102C099E1C2481D7002CB4DF /* guide_3@2x.png */,
+				102C099F1C2481D7002CB4DF /* guide_4.png */,
+				102C09A01C2481D7002CB4DF /* guide_4@2x.png */,
+			);
+			name = "Textury Big";
+			path = "doSlownie Shared Resources/Textury Big";
+			sourceTree = SOURCE_ROOT;
+		};
+		102C09EC1C248310002CB4DF /* doSlownie dla OSX */ = {
+			isa = PBXGroup;
+			children = (
+				102C09ED1C248310002CB4DF /* AppDelegate.h */,
+				102C09EE1C248310002CB4DF /* AppDelegate.m */,
+				102C09FA1C248310002CB4DF /* MainMenu.xib */,
+				102C09FD1C248310002CB4DF /* Info.plist */,
+				102C09F01C248310002CB4DF /* Supporting Files */,
+			);
+			path = "doSlownie dla OSX";
+			sourceTree = "<group>";
+		};
+		102C09F01C248310002CB4DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				102C09F11C248310002CB4DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		102C0A051C248310002CB4DF /* doSlownie dla OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				102C0A061C248310002CB4DF /* doSlownie_dla_OSXTests.m */,
+				102C0A081C248310002CB4DF /* Info.plist */,
+			);
+			name = "doSlownie dla OSXTests";
+			path = "../doSlownie dla OSXTests";
+			sourceTree = "<group>";
+		};
+		102C0A521C248361002CB4DF /* Testy */ = {
+			isa = PBXGroup;
+			children = (
+				102C09341C247F94002CB4DF /* doSlownieTests */,
+				102C0A051C248310002CB4DF /* doSlownie dla OSXTests */,
+			);
+			name = Testy;
+			path = doSlownieTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		102C09121C247F94002CB4DF /* doSlownie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 102C093A1C247F94002CB4DF /* Build configuration list for PBXNativeTarget "doSlownie" */;
+			buildPhases = (
+				102C090F1C247F94002CB4DF /* Sources */,
+				102C09101C247F94002CB4DF /* Frameworks */,
+				102C09111C247F94002CB4DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = doSlownie;
+			productName = doSlownie;
+			productReference = 102C09131C247F94002CB4DF /* doSlownie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		102C09301C247F94002CB4DF /* doSlownieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 102C093D1C247F94002CB4DF /* Build configuration list for PBXNativeTarget "doSlownieTests" */;
+			buildPhases = (
+				102C092D1C247F94002CB4DF /* Sources */,
+				102C092E1C247F94002CB4DF /* Frameworks */,
+				102C092F1C247F94002CB4DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				102C09331C247F94002CB4DF /* PBXTargetDependency */,
+			);
+			name = doSlownieTests;
+			productName = doSlownieTests;
+			productReference = 102C09311C247F94002CB4DF /* doSlownieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		102C09EA1C248310002CB4DF /* doSlownie dla OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 102C0A091C248310002CB4DF /* Build configuration list for PBXNativeTarget "doSlownie dla OSX" */;
+			buildPhases = (
+				102C09E71C248310002CB4DF /* Sources */,
+				102C09E81C248310002CB4DF /* Frameworks */,
+				102C09E91C248310002CB4DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "doSlownie dla OSX";
+			productName = "doSlownie dla OSX";
+			productReference = 102C09EB1C248310002CB4DF /* doSlownie dla OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		102C0A011C248310002CB4DF /* doSlownie dla OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 102C0A0C1C248310002CB4DF /* Build configuration list for PBXNativeTarget "doSlownie dla OSXTests" */;
+			buildPhases = (
+				102C09FE1C248310002CB4DF /* Sources */,
+				102C09FF1C248310002CB4DF /* Frameworks */,
+				102C0A001C248310002CB4DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				102C0A041C248310002CB4DF /* PBXTargetDependency */,
+			);
+			name = "doSlownie dla OSXTests";
+			productName = "doSlownie dla OSXTests";
+			productReference = 102C0A021C248310002CB4DF /* doSlownie dla OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		102C090B1C247F94002CB4DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Anatol Karlinski";
+				TargetAttributes = {
+					102C09121C247F94002CB4DF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ZC2UPNT22S;
+					};
+					102C09301C247F94002CB4DF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ZC2UPNT22S;
+						TestTargetID = 102C09121C247F94002CB4DF;
+					};
+					102C09EA1C248310002CB4DF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					102C0A011C248310002CB4DF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 102C09EA1C248310002CB4DF;
+					};
+				};
+			};
+			buildConfigurationList = 102C090E1C247F94002CB4DF /* Build configuration list for PBXProject "doSlownie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 102C090A1C247F94002CB4DF;
+			productRefGroup = 102C09141C247F94002CB4DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				102C09121C247F94002CB4DF /* doSlownie */,
+				102C09301C247F94002CB4DF /* doSlownieTests */,
+				102C09EA1C248310002CB4DF /* doSlownie dla OSX */,
+				102C0A011C248310002CB4DF /* doSlownie dla OSXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		102C09111C247F94002CB4DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1093D38B1C24AD1B002EA16D /* relaks.plist in Resources */,
+				1093D3471C24AD1B002EA16D /* forumk.plist in Resources */,
+				1093D3291C24AD1B002EA16D /* baleto.plist in Resources */,
+				1093D3971C24AD1B002EA16D /* śmierć.plist in Resources */,
+				1093D3931C24AD1B002EA16D /* rzepak.plist in Resources */,
+				1093D3811C24AD1B002EA16D /* poczta.plist in Resources */,
+				1093D3791C24AD1B002EA16D /* orzech.plist in Resources */,
+				102C09E31C2481D7002CB4DF /* guide_4@2x.png in Resources */,
+				1093D3451C24AD1B002EA16D /* flakon.plist in Resources */,
+				1093D3BF1C24AD1B002EA16D /* zebrag.plist in Resources */,
+				1093D3531C24AD1B002EA16D /* gulasz.plist in Resources */,
+				1093D3611C24AD1B002EA16D /* krowan.plist in Resources */,
+				1093D3B31C24AD1B002EA16D /* wiertło.plist in Resources */,
+				1093D3BD1C24AD1B002EA16D /* żagiel.plist in Resources */,
+				1093D3651C24AD1B002EA16D /* lukier.plist in Resources */,
+				1093D34F1C24AD1B002EA16D /* goryla.plist in Resources */,
+				102C09DF1C2481D7002CB4DF /* guide_2@2x.png in Resources */,
+				1093D33F1C24AD1B002EA16D /* dolina.plist in Resources */,
+				102C09D81C2481D7002CB4DF /* game_background.png in Resources */,
+				1093D33D1C24AD1B002EA16D /* deskar.plist in Resources */,
+				1093D38F1C24AD1B002EA16D /* rosółt.plist in Resources */,
+				1093D3831C24AD1B002EA16D /* podróż.plist in Resources */,
+				1093D39B1C24AD1B002EA16D /* srokam.plist in Resources */,
+				1093D3A91C24AD1B002EA16D /* trzoda.plist in Resources */,
+				1093D3891C24AD1B002EA16D /* rekina.plist in Resources */,
+				1093D3371C24AD1B002EA16D /* chomik.plist in Resources */,
+				1093D3711C24AD1B002EA16D /* nawózd.plist in Resources */,
+				1093D34B1C24AD1B002EA16D /* garnek.plist in Resources */,
+				1093D37F1C24AD1B002EA16D /* płatek.plist in Resources */,
+				1093D3B11C24AD1B002EA16D /* wiedza.plist in Resources */,
+				1093D3411C24AD1B002EA16D /* doSłownie-Info.plist in Resources */,
+				1093D3311C24AD1B002EA16D /* busola.plist in Resources */,
+				1093D3331C24AD1B002EA16D /* bzdura.plist in Resources */,
+				1093D3991C24AD1B002EA16D /* sporta.plist in Resources */,
+				1093D3571C24AD1B002EA16D /* kangur.plist in Resources */,
+				1093D3391C24AD1B002EA16D /* ciasto.plist in Resources */,
+				1093D3A11C24AD1B002EA16D /* szpako.plist in Resources */,
+				102C09E41C2481D7002CB4DF /* Textury.atlas in Resources */,
+				1093D3751C24AD1B002EA16D /* omletw.plist in Resources */,
+				1093D3BB1C24AD1B002EA16D /* wrotki.plist in Resources */,
+				102C09D71C2481D7002CB4DF /* about@2x.png in Resources */,
+				1093D36D1C24AD1B002EA16D /* muchao.plist in Resources */,
+				1093D3A51C24AD1B002EA16D /* szynka.plist in Resources */,
+				1093D3A71C24AD1B002EA16D /* taniec.plist in Resources */,
+				1093D3B71C24AD1B002EA16D /* wódkaz.plist in Resources */,
+				1093D35B1C24AD1B002EA16D /* kogutl.plist in Resources */,
+				1093D3591C24AD1B002EA16D /* kaptur.plist in Resources */,
+				1093D3AF1C24AD1B002EA16D /* tunika.plist in Resources */,
+				102C092B1C247F94002CB4DF /* LaunchScreen.storyboard in Resources */,
+				1093D3A31C24AD1B002EA16D /* sztuka.plist in Resources */,
+				1093D35F1C24AD1B002EA16D /* kremaw.plist in Resources */,
+				1093D3C41C24B994002EA16D /* Ikony.xcassets in Resources */,
+				1093D37B1C24AD1B002EA16D /* piłkae.plist in Resources */,
+				1093D3351C24AD1B002EA16D /* cebula.plist in Resources */,
+				1093D3771C24AD1B002EA16D /* orkani.plist in Resources */,
+				1093D3AD1C24AD1B002EA16D /* tundra.plist in Resources */,
+				102C09D91C2481D7002CB4DF /* game_background@2x.png in Resources */,
+				1093D3871C24AD1B002EA16D /* pranie.plist in Resources */,
+				102C09DD1C2481D7002CB4DF /* guide_1@2x.png in Resources */,
+				1093D3731C24AD1B002EA16D /* ogórek.plist in Resources */,
+				1093D3951C24AD1B002EA16D /* serial.plist in Resources */,
+				1093D32B1C24AD1B002EA16D /* bocian.plist in Resources */,
+				1093D3271C24AD1B002EA16D /* aloesk.plist in Resources */,
+				1093D32F1C24AD1B002EA16D /* burako.plist in Resources */,
+				102C09E01C2481D7002CB4DF /* guide_3.png in Resources */,
+				1093D3691C24AD1B002EA16D /* modelp.plist in Resources */,
+				1093D36B1C24AD1B002EA16D /* moneta.plist in Resources */,
+				1093D3551C24AD1B002EA16D /* jabłko.plist in Resources */,
+				1093D39F1C24AD1B002EA16D /* szkico.plist in Resources */,
+				1093D33B1C24AD1B002EA16D /* daktyl.plist in Resources */,
+				102C09DB1C2481D7002CB4DF /* global_mainBackground@2x.png in Resources */,
+				102C09DC1C2481D7002CB4DF /* guide_1.png in Resources */,
+				1093D3671C24AD1B002EA16D /* miasto.plist in Resources */,
+				1093D3851C24AD1B002EA16D /* poziomy_db.plist in Resources */,
+				1093D3911C24AD1B002EA16D /* rozpad.plist in Resources */,
+				1093D3C11C24AD1B002EA16D /* źrebak.plist in Resources */,
+				1093D35D1C24AD1B002EA16D /* kozats.plist in Resources */,
+				1093D37D1C24AD1B002EA16D /* piwoda.plist in Resources */,
+				1093D32D1C24AD1B002EA16D /* brokuł.plist in Resources */,
+				102C09E11C2481D7002CB4DF /* guide_3@2x.png in Resources */,
+				1093D39D1C24AD1B002EA16D /* szachy.plist in Resources */,
+				1093D3631C24AD1B002EA16D /* litera.plist in Resources */,
+				1093D3B91C24AD1B002EA16D /* wronaó.plist in Resources */,
+				102C09DE1C2481D7002CB4DF /* guide_2.png in Resources */,
+				1093D34D1C24AD1B002EA16D /* gąsior.plist in Resources */,
+				1093D3B51C24AD1B002EA16D /* wodare.plist in Resources */,
+				1093D3511C24AD1B002EA16D /* grzyba.plist in Resources */,
+				1093D38D1C24AD1B002EA16D /* reszta.plist in Resources */,
+				1093D3491C24AD1B002EA16D /* fretka.plist in Resources */,
+				1093D3431C24AD1B002EA16D /* fiolka.plist in Resources */,
+				102C09DA1C2481D7002CB4DF /* global_mainBackground.png in Resources */,
+				1093D3AB1C24AD1B002EA16D /* tukano.plist in Resources */,
+				102C09E21C2481D7002CB4DF /* guide_4.png in Resources */,
+				102C09261C247F94002CB4DF /* Main.storyboard in Resources */,
+				1093D36F1C24AD1B002EA16D /* nartyo.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		102C092F1C247F94002CB4DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		102C09E91C248310002CB4DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1093D34E1C24AD1B002EA16D /* gąsior.plist in Resources */,
+				1093D3701C24AD1B002EA16D /* nartyo.plist in Resources */,
+				1093D3BE1C24AD1B002EA16D /* żagiel.plist in Resources */,
+				1093D3781C24AD1B002EA16D /* orkani.plist in Resources */,
+				1093D3881C24AD1B002EA16D /* pranie.plist in Resources */,
+				102C0A4E1C24834E002CB4DF /* guide_3@2x.png in Resources */,
+				1093D3A01C24AD1B002EA16D /* szkico.plist in Resources */,
+				1093D3B41C24AD1B002EA16D /* wiertło.plist in Resources */,
+				1093D3661C24AD1B002EA16D /* lukier.plist in Resources */,
+				1093D3C51C24B994002EA16D /* Ikony.xcassets in Resources */,
+				1093D3601C24AD1B002EA16D /* kremaw.plist in Resources */,
+				1093D34A1C24AD1B002EA16D /* fretka.plist in Resources */,
+				1093D3761C24AD1B002EA16D /* omletw.plist in Resources */,
+				1093D3621C24AD1B002EA16D /* krowan.plist in Resources */,
+				1093D3461C24AD1B002EA16D /* flakon.plist in Resources */,
+				1093D3301C24AD1B002EA16D /* burako.plist in Resources */,
+				1093D3361C24AD1B002EA16D /* cebula.plist in Resources */,
+				1093D35E1C24AD1B002EA16D /* kozats.plist in Resources */,
+				1093D37A1C24AD1B002EA16D /* orzech.plist in Resources */,
+				1093D3AE1C24AD1B002EA16D /* tundra.plist in Resources */,
+				1093D3501C24AD1B002EA16D /* goryla.plist in Resources */,
+				102C0A481C24834E002CB4DF /* global_mainBackground@2x.png in Resources */,
+				1093D3C01C24AD1B002EA16D /* zebrag.plist in Resources */,
+				102C0A4B1C24834E002CB4DF /* guide_2.png in Resources */,
+				1093D3821C24AD1B002EA16D /* poczta.plist in Resources */,
+				1093D3B81C24AD1B002EA16D /* wódkaz.plist in Resources */,
+				1093D3A41C24AD1B002EA16D /* sztuka.plist in Resources */,
+				1093D3521C24AD1B002EA16D /* grzyba.plist in Resources */,
+				1093D3A61C24AD1B002EA16D /* szynka.plist in Resources */,
+				1093D38C1C24AD1B002EA16D /* relaks.plist in Resources */,
+				1093D3741C24AD1B002EA16D /* ogórek.plist in Resources */,
+				1093D3681C24AD1B002EA16D /* miasto.plist in Resources */,
+				1093D36E1C24AD1B002EA16D /* muchao.plist in Resources */,
+				1093D3BA1C24AD1B002EA16D /* wronaó.plist in Resources */,
+				1093D3A81C24AD1B002EA16D /* taniec.plist in Resources */,
+				102C0A501C24834E002CB4DF /* guide_4@2x.png in Resources */,
+				1093D37C1C24AD1B002EA16D /* piłkae.plist in Resources */,
+				1093D3901C24AD1B002EA16D /* rosółt.plist in Resources */,
+				1093D3581C24AD1B002EA16D /* kangur.plist in Resources */,
+				1093D39E1C24AD1B002EA16D /* szachy.plist in Resources */,
+				102C0A4F1C24834E002CB4DF /* guide_4.png in Resources */,
+				1093D3281C24AD1B002EA16D /* aloesk.plist in Resources */,
+				1093D33E1C24AD1B002EA16D /* deskar.plist in Resources */,
+				102C0A4D1C24834E002CB4DF /* guide_3.png in Resources */,
+				1093D36A1C24AD1B002EA16D /* modelp.plist in Resources */,
+				102C0A491C24834E002CB4DF /* guide_1.png in Resources */,
+				102C0A511C248351002CB4DF /* Textury.atlas in Resources */,
+				1093D3981C24AD1B002EA16D /* śmierć.plist in Resources */,
+				1093D33A1C24AD1B002EA16D /* ciasto.plist in Resources */,
+				102C0A4A1C24834E002CB4DF /* guide_1@2x.png in Resources */,
+				1093D3B01C24AD1B002EA16D /* tunika.plist in Resources */,
+				1093D32E1C24AD1B002EA16D /* brokuł.plist in Resources */,
+				1093D3401C24AD1B002EA16D /* dolina.plist in Resources */,
+				1093D38E1C24AD1B002EA16D /* reszta.plist in Resources */,
+				1093D35A1C24AD1B002EA16D /* kaptur.plist in Resources */,
+				1093D3861C24AD1B002EA16D /* poziomy_db.plist in Resources */,
+				1093D3641C24AD1B002EA16D /* litera.plist in Resources */,
+				1093D36C1C24AD1B002EA16D /* moneta.plist in Resources */,
+				102C0A451C24834E002CB4DF /* game_background.png in Resources */,
+				1093D3C21C24AD1B002EA16D /* źrebak.plist in Resources */,
+				1093D3561C24AD1B002EA16D /* jabłko.plist in Resources */,
+				102C0A471C24834E002CB4DF /* global_mainBackground.png in Resources */,
+				1093D35C1C24AD1B002EA16D /* kogutl.plist in Resources */,
+				1093D3341C24AD1B002EA16D /* bzdura.plist in Resources */,
+				1093D3481C24AD1B002EA16D /* forumk.plist in Resources */,
+				1093D33C1C24AD1B002EA16D /* daktyl.plist in Resources */,
+				102C0A461C24834E002CB4DF /* game_background@2x.png in Resources */,
+				1093D3321C24AD1B002EA16D /* busola.plist in Resources */,
+				1093D3961C24AD1B002EA16D /* serial.plist in Resources */,
+				1093D3921C24AD1B002EA16D /* rozpad.plist in Resources */,
+				1093D3801C24AD1B002EA16D /* płatek.plist in Resources */,
+				1093D3A21C24AD1B002EA16D /* szpako.plist in Resources */,
+				1093D3B21C24AD1B002EA16D /* wiedza.plist in Resources */,
+				1093D38A1C24AD1B002EA16D /* rekina.plist in Resources */,
+				1093D3721C24AD1B002EA16D /* nawózd.plist in Resources */,
+				1093D3541C24AD1B002EA16D /* gulasz.plist in Resources */,
+				1093D3941C24AD1B002EA16D /* rzepak.plist in Resources */,
+				1093D34C1C24AD1B002EA16D /* garnek.plist in Resources */,
+				1093D39C1C24AD1B002EA16D /* srokam.plist in Resources */,
+				1093D39A1C24AD1B002EA16D /* sporta.plist in Resources */,
+				102C0A4C1C24834E002CB4DF /* guide_2@2x.png in Resources */,
+				102C09FC1C248310002CB4DF /* MainMenu.xib in Resources */,
+				1093D3841C24AD1B002EA16D /* podróż.plist in Resources */,
+				1093D3BC1C24AD1B002EA16D /* wrotki.plist in Resources */,
+				1093D3AC1C24AD1B002EA16D /* tukano.plist in Resources */,
+				102C0A441C24834E002CB4DF /* about@2x.png in Resources */,
+				1093D3B61C24AD1B002EA16D /* wodare.plist in Resources */,
+				1093D37E1C24AD1B002EA16D /* piwoda.plist in Resources */,
+				1093D3AA1C24AD1B002EA16D /* trzoda.plist in Resources */,
+				1093D3381C24AD1B002EA16D /* chomik.plist in Resources */,
+				1093D3441C24AD1B002EA16D /* fiolka.plist in Resources */,
+				1093D32C1C24AD1B002EA16D /* bocian.plist in Resources */,
+				1093D32A1C24AD1B002EA16D /* baleto.plist in Resources */,
+				1093D3421C24AD1B002EA16D /* doSłownie-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		102C0A001C248310002CB4DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		102C090F1C247F94002CB4DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102C09231C247F94002CB4DF /* GameViewController.m in Sources */,
+				102C09A41C2481D7002CB4DF /* ekranAbout.m in Sources */,
+				102C09A51C2481D7002CB4DF /* ekranGry.m in Sources */,
+				102C09E51C2481D7002CB4DF /* managerSingleton.m in Sources */,
+				102C091B1C247F94002CB4DF /* AppDelegate.m in Sources */,
+				102C09A71C2481D7002CB4DF /* ekranMenu.m in Sources */,
+				102C09A61C2481D7002CB4DF /* ekranGuide.m in Sources */,
+				102C09E61C2481D7002CB4DF /* SKScene+SKMScene.m in Sources */,
+				102C09A81C2481D7002CB4DF /* ekranWyboruPoziomu.m in Sources */,
+				102C09181C247F94002CB4DF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		102C092D1C247F94002CB4DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102C09361C247F94002CB4DF /* doSlownieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		102C09E71C248310002CB4DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102C09F21C248310002CB4DF /* main.m in Sources */,
+				102C0A121C248329002CB4DF /* ekranGry.m in Sources */,
+				102C0A0F1C24831F002CB4DF /* SKScene+SKMScene.m in Sources */,
+				102C0A151C248329002CB4DF /* ekranWyboruPoziomu.m in Sources */,
+				102C0A101C248322002CB4DF /* managerSingleton.m in Sources */,
+				102C09EF1C248310002CB4DF /* AppDelegate.m in Sources */,
+				102C0A141C248329002CB4DF /* ekranMenu.m in Sources */,
+				102C0A131C248329002CB4DF /* ekranGuide.m in Sources */,
+				102C0A111C248329002CB4DF /* ekranAbout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		102C09FE1C248310002CB4DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102C0A071C248310002CB4DF /* doSlownie_dla_OSXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		102C09331C247F94002CB4DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 102C09121C247F94002CB4DF /* doSlownie */;
+			targetProxy = 102C09321C247F94002CB4DF /* PBXContainerItemProxy */;
+		};
+		102C0A041C248310002CB4DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 102C09EA1C248310002CB4DF /* doSlownie dla OSX */;
+			targetProxy = 102C0A031C248310002CB4DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		102C09241C247F94002CB4DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				102C09251C247F94002CB4DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		102C09291C247F94002CB4DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				102C092A1C247F94002CB4DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		102C09FA1C248310002CB4DF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				102C09FB1C248310002CB4DF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		102C09381C247F94002CB4DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		102C09391C247F94002CB4DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		102C093B1C247F94002CB4DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Ikony iOS";
+				INFOPLIST_FILE = doSlownie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anatol.karlinski.doSlownie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		102C093C1C247F94002CB4DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Ikony iOS";
+				INFOPLIST_FILE = doSlownie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anatol.karlinski.doSlownie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		102C093E1C247F94002CB4DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = doSlownieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anatol.karlinski.doSlownieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doSlownie.app/doSlownie";
+			};
+			name = Debug;
+		};
+		102C093F1C247F94002CB4DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = doSlownieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anatol.karlinski.doSlownieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doSlownie.app/doSlownie";
+			};
+			name = Release;
+		};
+		102C0A0A1C248310002CB4DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Ikony OSX";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "doSlownie dla OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "anatol.karlinski.doSlownie-dla-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		102C0A0B1C248310002CB4DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Ikony OSX";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "doSlownie dla OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "anatol.karlinski.doSlownie-dla-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		102C0A0D1C248310002CB4DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "doSlownie dla OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "anatol.karlinski.doSlownie-dla-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doSlownie dla OSX.app/Contents/MacOS/doSlownie dla OSX";
+			};
+			name = Debug;
+		};
+		102C0A0E1C248310002CB4DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "doSlownie dla OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "anatol.karlinski.doSlownie-dla-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doSlownie dla OSX.app/Contents/MacOS/doSlownie dla OSX";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		102C090E1C247F94002CB4DF /* Build configuration list for PBXProject "doSlownie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102C09381C247F94002CB4DF /* Debug */,
+				102C09391C247F94002CB4DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		102C093A1C247F94002CB4DF /* Build configuration list for PBXNativeTarget "doSlownie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102C093B1C247F94002CB4DF /* Debug */,
+				102C093C1C247F94002CB4DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		102C093D1C247F94002CB4DF /* Build configuration list for PBXNativeTarget "doSlownieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102C093E1C247F94002CB4DF /* Debug */,
+				102C093F1C247F94002CB4DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		102C0A091C248310002CB4DF /* Build configuration list for PBXNativeTarget "doSlownie dla OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102C0A0A1C248310002CB4DF /* Debug */,
+				102C0A0B1C248310002CB4DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		102C0A0C1C248310002CB4DF /* Build configuration list for PBXNativeTarget "doSlownie dla OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102C0A0D1C248310002CB4DF /* Debug */,
+				102C0A0E1C248310002CB4DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 102C090B1C247F94002CB4DF /* Project object */;
+}
