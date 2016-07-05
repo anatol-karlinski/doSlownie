@@ -1,2 +1,2 @@
 [drag]: https://raw.githubusercontent.com/anatol-karlinski/doSlownie/master/doSlownie.png
-[drag]: https://raw.github.com/adeven/adjust_sdk/master/Resources/ios/drag2.png
+<div style="text-align:center"><img src ="https://raw.githubusercontent.com/anatol-karlinski/doSlownie/master/doSlownie.png" /></div>
