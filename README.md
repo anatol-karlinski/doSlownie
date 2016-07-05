@@ -1,1 +1,1 @@
-![alt tag](https://i.ytimg.com/vi/6KQPhoCICcs/maxresdefault.jpg)
+![alt tag](https://raw.githubusercontent.com/anatol-karlinski/doSlownie/master/doSlownie.png)
